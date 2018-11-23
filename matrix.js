@@ -13,6 +13,7 @@ var newState = function(arr,x,y,numberOfalive)
         }
     }
     return (--counter === numberOfalive)? true:false;
+    //go condition
    
 }
 
